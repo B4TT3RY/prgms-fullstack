@@ -61,3 +61,9 @@ function 함수이름() {
        코드로 작성해줍니다. */
 }
 ```
+
+## 실습 사진
+
+![JavaScript Code](code.png)
+
+![실행 결과](result.png)
