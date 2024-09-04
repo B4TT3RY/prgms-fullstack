@@ -34,7 +34,3 @@ console.log(req.body);
 - 유튜버 등록: `POST /youtuber`
   - req: body <- `channelTitle, sub = 0, videoNum = 0`, 신규 유튜버 정보를 전달, DB에 저장
   - res: `{channelTitle}님, 유튜버 생활을 응원합니다!`
-
-### `let id` 가 아닌 `var id` 를 사용해야 하는 이유?
-
-`var`은 함수에서만 지역변수가 되는 함수 레벨 스코프를 가지지만 `let`과 `const`는 블록레벨 스코프를 가져 모든 코드블록이 지역 스코프를 가지기 떄문
