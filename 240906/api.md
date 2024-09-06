@@ -131,9 +131,9 @@ Keep-Alive: timeout=5
 
 ```http
 DELETE /users/1 HTTP/1.1
-> Host: localhost:3000
-> User-Agent: curl/8.7.1
-> Accept: */*
+Host: localhost:3000
+User-Agent: curl/8.7.1
+Accept: */*
 ```
 
 ### Response #5
@@ -155,9 +155,9 @@ Keep-Alive: timeout=5
 
 ```http
 DELETE /users/1 HTTP/1.1
-> Host: localhost:3000
-> User-Agent: curl/8.7.1
-> Accept: */*
+Host: localhost:3000
+User-Agent: curl/8.7.1
+Accept: */*
 ```
 
 ### Response #6
