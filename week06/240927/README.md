@@ -91,7 +91,7 @@
 
     |Key|Value|
     |---|---|
-    |Method|PUT|
+    |Method|POST|
     |URI|/likes/:bookId|
     |HTTP Status Code|200 OK|
     |Request Body||
@@ -101,7 +101,7 @@
 
     |Key|Value|
     |---|---|
-    |Method|PUT|
+    |Method|DELETE|
     |URI|/likes/:bookId|
     |HTTP Status Code|200 OK|
     |Request Body||
@@ -139,14 +139,12 @@
     |Request Body||
     |Response Body||
 
-## 주문 API
-
-1. 장바구니에서 선택한 상품 목록 조회
+1. (장바구니에서 선택한) 주문 "예상" 상품 목록 조회
 
     |Key|Value|
     |---|---|
     |Method|GET|
     |URI|/...|
     |HTTP Status Code|200 OK|
-    |Request Body||
+    |Request Body|[ cartItemId, cartItemId, ... ]|
     |Response Body|[{ cartItemId: "장바구니 도서 ID", bookId: "도서 ID", title: "도서 제목", summary: "도서 요약", count: "수량" price: "가격" }, ...]|
