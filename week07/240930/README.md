@@ -1,4 +1,4 @@
-# 2024/09/26 7주차 파트 1
+# 2024/09/30 7주차 파트 1
 
 [dbdiagram.io](https://dbdiagram.io) 사용하여 ERD 그리기
 
