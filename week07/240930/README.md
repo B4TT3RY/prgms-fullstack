@@ -2,6 +2,44 @@
 
 [dbdiagram.io](https://dbdiagram.io) 사용하여 ERD 그리기
 
+## ERD
+
+```text
+Table users {
+  id integer [primary key]
+  email varchar
+  password varchar
+}
+
+Table books {
+  id integer [primary key]
+  title varchar
+  category varchar
+  format varchar
+  isbn varchar
+  summary text
+  description text
+  author varchar
+  pages integer
+  index text
+  price integer
+  likes integer
+  pubDate timestamp
+}
+
+Table likes {
+  user_id integer
+  liked_book_id integer
+}
+
+Table carts {
+  bookId integer
+  count integer
+}
+```
+
+![ERD 결과](image.png)
+
 ## 좋아요 API 수정
 
 1. 좋아요 추가
