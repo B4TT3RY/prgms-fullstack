@@ -63,3 +63,15 @@ try {
     console.log(err.message)
 }
 ```
+
+## instanceof
+
+객체가 특정 클래스에 속하는지 확인할 수 있음
+
+```js
+if (authorization instanceof jwt.TokenExpiredError) {
+    return res.status(StatusCodes.UNAUTHORIZED).json({
+        message: '로그인 세션이 만료되었습니다. 다시 로그인 하세요.',
+    });
+}
+```
